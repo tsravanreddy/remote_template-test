@@ -1,0 +1,37 @@
+name: Configure config.json
+description: Provide details to configure the config.json file
+title: "Configure config.json"
+labels: ["configuration"]
+body:
+  - type: input
+    id: driver_name
+    attributes:
+      label: Driver Name
+      description: Enter the driver name
+      placeholder: e.g. MyDriver
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Enter the version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: instrument_model
+    attributes:
+      label: Instrument Model
+      description: Enter the instrument model
+      placeholder: e.g. ModelX
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      description: Enter the manufacturer
+      placeholder: e.g. Acme Corp
+    validations:
+      required: true
