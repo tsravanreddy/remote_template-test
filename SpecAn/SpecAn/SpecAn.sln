@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DcPwr", "DcPwr\DcPwr.csproj", "{7E24CEA1-58D0-45C0-A636-DC6C7B7A595C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DcPwr.Tests", "..\.github\DcPwr.Tests\DcPwr.Tests.csproj", "{38D99F82-79C9-9C32-113B-5C6ED102ED81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E24CEA1-58D0-45C0-A636-DC6C7B7A595C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E24CEA1-58D0-45C0-A636-DC6C7B7A595C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E24CEA1-58D0-45C0-A636-DC6C7B7A595C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E24CEA1-58D0-45C0-A636-DC6C7B7A595C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D99F82-79C9-9C32-113B-5C6ED102ED81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D99F82-79C9-9C32-113B-5C6ED102ED81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D99F82-79C9-9C32-113B-5C6ED102ED81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D99F82-79C9-9C32-113B-5C6ED102ED81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E583D32-B87C-46C7-97A4-F6BDC384C8F7}
+	EndGlobalSection
+EndGlobal
